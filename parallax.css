@@ -1,0 +1,128 @@
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #666;
+}
+
+.pimg1 {
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  background-image: url(./images/bg.jpg);
+}
+.img2 {
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80%;
+  background-image: url(./images/bg3.jpg);
+}
+.img3 {
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80%;
+  background-image: url(./images/bg4.jpg);
+}
+.img4 {
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  background-image: url(./images/bg.jpg);
+}
+
+.cwpng {
+  width: 30%;
+}
+
+.cw {
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80%;
+  background-image: url(./images/bg2.jpg);
+  min-width: 100%;
+}
+.big {
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  text-transform: uppercase;
+  outline-offset: 1.2rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: azure;
+}
+
+.small {
+  background-color: rgb(0, 0, 0);
+  padding: 0.7rem;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  outline: 0.4rem inset purple;
+  text-transform: uppercase;
+  outline-offset: 1rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  color: azure;
+}
+
+.section {
+  text-align: center;
+  padding: 3rem 5rem;
+}
+.section-light {
+  background-color: rgb(241, 241, 241);
+  color: #666;
+}
+
+.section-dark {
+  color: #ddd;
+  background-color: #282e34;
+}
+
+@media (max-width: 570px) {
+  img1,
+  img2,
+  img3,
+  img4 {
+    background-attachment: scroll;
+  }
+}
